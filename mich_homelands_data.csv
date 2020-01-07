@@ -1,0 +1,826 @@
+cluster,latitude,longitude,cntry_name,split10pc,battles,vio,riots
+Beja,23.1618,33.701599,Egypt,1,1,1,4
+Eastern Nigritic Peoples - Equatorial,3.7029541,26.7973,"Congo, DRC",0,0,3,0
+Twi - Lagoon,6.06953,-4.2603202,Cote d'Ivoire,0,3,0,0
+Nilotes - Luo,3.1081209,32.656799,Uganda,0,871,541,3
+Fulani,7.5560899,13.1847,Cameroon,0,0,1,0
+Twi - Ewe,6.0768499,.27045599,Ghana,0,0,1,0
+Negroes of the Sudan Fringe - Hausa Province,14.4016,5.303103,Niger,0,3,2,4
+Twi - General Togo,8.2442837,.67365098,Ghana,1,0,0,0
+Afar and Somali (Peoples of the Horn),12.3348,41.3923,Ethiopia,1,21,13,2
+Southern Nigerians - Idoma,8.2427483,8.0594854,Nigeria,0,1,0,0
+Plateu Nigerians - Bantoid Peoples,9.9587183,9.1822882,Nigeria,0,2,1,0
+Tuareg,23.803499,4.2290058,Algeria,0,2,0,1
+Twi - Lagoon,5.505352,-4.65418,Cote d'Ivoire,0,0,0,0
+Twi - General Togo,7.624908,1.144748,Togo,0,0,0,0
+Twi - Akan,6.4389162,-.37515199,Ghana,0,1,2,0
+Twi - Lagoon,-3.15836,36.8344,Tanzania,0,1,0,0
+Bedouin Arabs,35.844398,2.388989,Algeria,0,238,257,85
+Nilotes - Luo,2.515172,31.222601,Uganda,1,14,13,1
+Beja,20.054399,36.132198,Sudan,0,0,0,0
+Equatorial Bantu,.73324698,29.686501,"Congo, DRC",1,182,71,0
+Southwestern Bantu,-17.586201,16.039499,Namibia,1,12,10,12
+Beja,17.377399,37.834499,Sudan,1,4,4,3
+Central Ethiopians,12.0354,37.698601,Ethiopia,0,128,13,4
+Southern Nigerians - Yoruba,7.6760449,1.558395,Benin,1,0,0,0
+Nubians,14.8828,30.0714,Sudan,0,4,1,0
+Plateu Nigerians - Chadic,8.8042898,9.5454521,Nigeria,0,22,19,0
+Malagasy,-22.9944,47.621799,Madagascar,0,0,0,1
+Malagasy,-24.941401,45.810902,Madagascar,0,0,0,0
+Tuareg,17.227699,-2.43857,Mali,0,0,0,0
+Prenilotes,7.6620159,34.067699,Ethiopia,1,38,16,1
+Southern Nigerians - Bantoid,5.770052,9.4727297,Cameroon,0,1,0,0
+Twi - Akan,6.439693,-3.2469699,Cote d'Ivoire,1,0,1,9
+Bedouin Arabs,32.911201,9.8289061,Tunisia,0,0,0,0
+Southern Nigerians - Idoma,8.1620722,8.56075,Nigeria,0,0,2,0
+Twi - Lagoon,5.7953129,-4.5934601,Cote d'Ivoire,0,1,0,0
+Galla,6.9250641,40.577099,Ethiopia,0,43,3,0
+Tuareg,18.871201,8.89818,Niger,1,48,27,0
+Twi - Akan,6.7418499,-1.4523799,Ghana,0,5,5,9
+Twi - Lagoon,5.1801081,-2.8664501,Ghana,1,0,0,0
+Plateu Nigerians - Chadic,30.455601,-5.0149899,Algeria,1,0,0,0
+Twi - Akan,6.045857,-3.7350099,Cote d'Ivoire,0,0,0,0
+Twi - General Togo,8.4696512,.963844,Togo,1,0,0,0
+Tuareg,17.1084,3.253371,Mali,1,24,10,0
+Central Bantu - Bemba,-11.1506,29.074499,Zambia,1,0,0,2
+Negroes of the Sudan Fringe - Bornu Province,11.7893,10.3157,Nigeria,0,0,1,2
+Twi - General Togo,6.7322369,.62162101,Ghana,1,0,0,0
+Twi - Lagoon,5.287436,-4.78441,Cote d'Ivoire,0,49,120,133
+Central Ethiopians,10.8776,36.932201,Ethiopia,0,0,1,0
+Eastern Nigritic Peoples - Equatorial,4.5755482,26.451401,"Congo, DRC",1,59,132,2
+Tuareg,26.695101,8.744504,Algeria,1,0,0,1
+Eastern Nigritic Peoples - Equatorial,4.3110418,29.365801,"Congo, DRC",1,101,7,0
+Equatorial Bantu,2.490658,25.340799,"Congo, DRC",0,6,1,0
+Plateu Nigerians - Chadic,9.4701385,11.9918,Nigeria,0,3,1,0
+Senegambians,10.3823,-14.2526,Guinea,0,3,0,3
+Negroes of the Sudan Fringe - Bagirmi Province,11.3021,16.405199,Chad,0,1,1,0
+Northeast Coastal Bantu - Swahili,-1.13974,41.752102,Somalia,1,5,2,0
+Plateu Nigerians - Bantoid Peoples,11.3822,5.4533868,Nigeria,0,2,0,0
+Sidamo Peoples,5.8175902,36.492901,Ethiopia,0,0,0,0
+Kru and Peripheral Mande - Kru,5.2789898,-6.9443202,Cote d'Ivoire,0,12,7,7
+Senegambians,12.3249,-15.4516,Guinea-Bissau,1,10,8,0
+Nuclear Mande,13.076,-6.6626801,Mali,0,5,4,27
+Cameroon Highlanders (Bantu),5.2615461,10.4537,Cameroon,0,1,0,0
+Eastern Nigritic Peoples - Equatorial,6.7174482,22.1551,Central African Republic,0,26,27,0
+Eastern Nigritic Peoples - Equatorial,2.5875051,15.5518,Cameroon,0,0,0,0
+Central Sudanic Peoples - Mangbetu (Southeastern),3.3203571,28.633699,"Congo, DRC",0,16,34,0
+Equatorial Bantu,-.32295999,16.7047,Congo,0,1,0,1
+Senegambians,12.4566,-16.0763,Senegal,1,72,38,4
+Eastern Nigritic Peoples - Equatorial,3.3898499,20.757999,"Congo, DRC",0,11,2,0
+Eastern Nigritic Peoples - Equatorial,4.9440579,20.2202,Central African Republic,1,1,2,0
+Malagasy,-23.1639,45.531502,Madagascar,0,1,2,0
+Nubians,21.037001,31.308201,Sudan,1,0,1,0
+Galla,2.1748121,41.0368,Kenya,1,173,127,14
+Prenilotes,15.6354,37.409599,Eritrea,0,1,0,0
+Voltaic Peoples - Bargu,10.4433,2.8936019,Benin,1,0,0,1
+Nilotes - Bari,4.7436032,31.7264,Sudan,0,69,67,21
+Plateu Nigerians - Bantoid Peoples,7.9320502,7.2253089,Nigeria,0,0,0,0
+Voltaic Peoples - Gurma,9.1965246,.79077899,Togo,0,0,0,0
+Interlacustrine Bantu - Ruanda,-2.4741499,28.8244,"Congo, DRC",1,224,216,31
+Twi - General Togo,9.1917725,1.834713,Benin,0,0,0,0
+Kru and Peripheral Mande - Kru,6.2061439,-9.6735401,Liberia,0,139,93,52
+Plateu Nigerians - Chadic,9.7346373,13.0346,Nigeria,1,0,0,0
+Baggara,16.016399,33.850101,Sudan,0,0,0,0
+Equatorial Bantu,3.3777139,23.551701,"Congo, DRC",0,2,2,0
+Fulani,9.8865252,10.5572,Nigeria,0,1,3,0
+Twi - Akan,7.2852478,-4.7908602,Cote d'Ivoire,0,37,16,46
+Eastern Nigritic Peoples - Equatorial,5.5830102,15.7826,Central African Republic,1,35,29,1
+Negroes of the Sudan Fringe - Bornu Province,12.7969,10.7457,Nigeria,0,0,0,0
+Baggara,13.0404,30.3741,Sudan,0,9,5,3
+Central Bantu - Bemba,-10.6705,31.3367,Zambia,0,0,0,10
+Tanganyika Bantu - Rufiji,-9.1879797,35.310902,Tanzania,0,0,0,0
+Tanganyika Bantu - Nyamwezi,-6.0701799,30.558901,Tanzania,0,0,0,0
+Plateu Nigerians - Chadic,32.784302,-5.2151299,Morocco,0,0,0,0
+Bedouin Arabs,19.8857,-4.72439,Mali,1,2,0,0
+Bushmen and Their Kin,-21.841101,15.4867,Namibia,0,0,0,0
+Negroes of the Sudan Fringe - Bornu Province,14.2058,9.5628939,Niger,0,0,2,0
+Prenilotes,10.5656,34.8489,Ethiopia,1,13,2,1
+Plateu Nigerians - Eastern Nigritic,14.0269,26.607599,Sudan,0,7,2,0
+Kru and Peripheral Mande - Kru,6.4094009,-6.4861302,Cote d'Ivoire,0,35,13,17
+Malagasy,-21.2201,46.471199,Madagascar,0,0,11,18
+Malagasy,-17.207701,49.246201,Madagascar,0,1,5,22
+Senegambians,11.5296,-15.1172,Guinea-Bissau,0,2,0,0
+Plateu Nigerians - Eastern Nigritic,19.395399,23.732201,Chad,1,19,3,0
+Senegambians,11.3159,-16.003799,Guinea-Bissau,0,0,0,0
+Equatorial Bantu,2.4469011,24.243401,"Congo, DRC",0,11,1,0
+Equatorial Bantu,.93354303,28.932199,"Congo, DRC",0,42,21,1
+Voltaic Peoples - Mole,10.2161,-2.81615,Burkina Faso,1,0,1,0
+Nubians,12.911,25.701099,Sudan,0,75,49,1
+Plateu Nigerians - Bantoid Peoples,9.6751833,9.0379753,Nigeria,0,55,29,19
+Central Bantu - Bemba,-12.2351,31.3892,Zambia,0,0,3,0
+Beja,20.1415,34.887699,Sudan,0,2,0,0
+Voltaic Peoples - Habe,12.4369,-3.6954601,Burkina Faso,1,3,0,0
+Eastern Nigritic Peoples - Equatorial,3.995162,17.5604,Central African Republic,0,0,0,0
+Beja,15.7513,38.4571,Eritrea,0,1,0,0
+Southern Nigerians - Bantoid,6.2257161,9.0868855,Nigeria,1,1,0,0
+Negroes of the Sudan Fringe - Bornu Province,11.0818,11.2904,Nigeria,0,0,0,0
+Equatorial Bantu,1.914921,17.5187,Congo,0,0,0,0
+Northeast Coastal Bantu - Zigula,-5.1585698,38.7584,Tanzania,0,0,0,0
+Eastern Nigritic Peoples - Equatorial,2.5163569,18.0152,Congo,1,11,0,0
+Central Sudanic Peoples - Madi (Eastern),6.839045,28.690001,Sudan,0,14,3,1
+East African Hunters,-1.30593,41.0173,Kenya,1,7,2,0
+Galla,3.286504,38.5271,Kenya,1,135,64,1
+Plateu Nigerians - Bantoid Peoples,9.6730537,10.1512,Nigeria,0,0,0,0
+Mongo and Luba - Mongo,-.692105,21.986601,"Congo, DRC",0,39,1,0
+Nuclear Mande,14.3674,-4.7732701,Mali,0,0,1,0
+Twi - Akan,7.9511409,-2.17049,Ghana,1,2,5,7
+Negroes of the Sudan Fringe - Bagirmi Province,10.0611,18.183901,Chad,0,0,2,0
+Northwestern Bantu - Northern,3.4853611,8.6962919,Equatorial Guinea,0,1,1,0
+Equatorial Bantu,2.5906849,22.798901,"Congo, DRC",0,4,0,0
+Equatorial Bantu,2.1163859,28.1208,"Congo, DRC",0,1,0,0
+Negroes of the Sudan Fringe - Bornu Province,13.5273,14.4237,Chad,0,0,0,0
+Twi - General Togo,7.4698901,.63685799,Togo,1,0,3,0
+Voltaic Peoples - Grusi,10.4745,-1.20059,Ghana,0,0,0,0
+Plateu Nigerians - Eastern Nigritic,17.116699,17.973,Chad,0,3,1,0
+Kru and Peripheral Mande - Atlantic,8.8400774,-13.0367,Sierra Leone,1,88,65,0
+Central Bantu - Kasai,-5.0783501,19.6157,"Congo, DRC",0,1,0,2
+Southern Nigerians - Yoruba,8.1631222,6.0682731,Nigeria,0,0,1,0
+Plateu Nigerians - Chadic,10.882,12.5685,Nigeria,0,1,2,0
+Southern Cushites,-5.1030102,36.232101,Tanzania,0,0,0,0
+Voltaic Peoples - Intrusive Peoples,10.515,4.202383,Nigeria,1,0,1,1
+Voltaic Peoples - Intrusive Peoples,11.4997,-.34856299,Burkina Faso,0,9,7,0
+Plateu Nigerians - Bantoid Peoples,11.1274,9.1148653,Nigeria,0,0,0,0
+Central Bantu - Bemba,-5.8611002,28.140499,"Congo, DRC",0,74,21,1
+Eastern Nigritic Peoples - Equatorial,3.5427749,19.2915,"Congo, DRC",1,113,51,52
+Bushmen and Their Kin,-33.088699,21.898199,South Africa,0,51,107,185
+Bedouin Arabs,31.1383,5.7015491,Algeria,0,2,1,1
+Kenya Highland Bantu,-3.2144201,37.454201,Tanzania,1,2,2,8
+Voltaic Peoples - Intrusive Peoples,10.2604,.48552299,Togo,1,1,0,0
+Plateu Nigerians - Eastern Nigritic,8.3894243,11.8606,Nigeria,0,0,1,0
+Central Bantu - Maravi,-14.2112,33.351101,Malawi,1,0,18,13
+Interlacustrine Bantu - Ruanda,-1.11146,29.9643,Uganda,1,15,16,1
+Central Bantu - Lunda,-9.6578302,20.318899,Angola,1,246,53,24
+Shona and Thonga - Thonga,-24.400999,34.644501,Mozambique,0,0,4,5
+Central Bantu - Maravi,-17.6784,36.209099,Mozambique,0,0,3,3
+Bedouin Arabs,32.4328,21.6292,Libya,0,1,2,2
+Voltaic Peoples - Intrusive Peoples,12.596,-3.13995,Burkina Faso,0,0,0,0
+Voltaic Peoples - Grusi,10.7717,-2.5601201,Ghana,1,0,0,0
+Voltaic Peoples - Mole,9.4633083,-.163764,Ghana,0,6,3,2
+Negroes of the Sudan Fringe - Darfur Province,12.3693,24.9333,Sudan,0,69,104,4
+Plateu Nigerians - Eastern Nigritic,8.339056,11.1512,Nigeria,0,0,0,0
+Bedouin Arabs,25.653,28.972799,Egypt,0,0,0,0
+Eastern Nigritic Peoples - Adamawa,8.8214703,14.2867,Cameroon,0,0,1,0
+Kru and Peripheral Mande - Mande,7.611124,-7.6753702,Cote d'Ivoire,0,15,4,5
+Magalithic Cushites,6.5999689,38.6576,Ethiopia,0,19,8,6
+Eastern Nigritic Peoples - Adamawa,8.9696255,15.025,Chad,1,0,0,0
+Plateu Nigerians - Eastern Nigritic,15.5476,13.2601,Niger,1,13,2,0
+Voltaic Peoples - Habe,14.2809,-1.0628,Burkina Faso,0,0,0,0
+Baggara,11.1775,17.2645,Chad,0,1,0,0
+Bedouin Arabs,21.5158,-15.112,Western Sahara,1,0,0,0
+Negroes of the Sudan Fringe - Songhai Province,11.9834,3.218313,Benin,1,0,0,0
+Plateu Nigerians - Chadic,9.9947796,12.2507,Nigeria,0,0,0,0
+Nuclear Mande,11.9995,-10.3175,Mali,1,0,3,3
+Voltaic Peoples - Lobi,11.0288,-3.4398601,Burkina Faso,0,2,0,0
+Kru and Peripheral Mande - Kru,5.5873351,-5.6432099,Cote d'Ivoire,0,2,7,6
+Nilotes - Beir,4.3747711,33.703499,Sudan,1,18,36,2
+Northeast Coastal Bantu - Nika,-4.3949699,38.957901,Kenya,1,2,0,0
+Nubians,12.3357,30.521999,Sudan,0,0,0,0
+Nilotes - Dinka,8.4080038,29.4044,Sudan,0,116,74,11
+Senegambians,12.8393,-16.409,Senegal,1,84,70,7
+Voltaic Peoples - Intrusive Peoples,8.9715157,-4.15205,Cote d'Ivoire,0,0,0,0
+Voltaic Peoples - Habe,14.4398,-3.2167101,Mali,0,0,1,0
+East African Hunters,-.036200002,35.841,Kenya,0,14,17,15
+Voltaic Peoples - Lobi,10.4174,-3.82634,Burkina Faso,0,0,0,0
+Plateu Nigerians - Chadic,30.660801,-6.3656001,Morocco,0,0,0,0
+Plateu Nigerians - Chadic,17.352301,-12.1479,Mauritania,0,0,0,0
+Northwestern Bantu - Northern,3.732898,9.9534893,Cameroon,0,7,7,12
+Bedouin Arabs,30.681999,-2.4015701,Algeria,0,1,4,3
+Northwestern Bantu - Southern,-1.8722,13.1622,Gabon,1,0,0,0
+Eastern Nigritic Peoples - Adamawa,8.0983582,14.1318,Cameroon,0,0,0,0
+Northeast Coastal Bantu - Nika,-3.8371699,39.211601,Kenya,0,1,1,0
+Equatorial Bantu,2.6750109,14.1686,Cameroon,1,0,0,0
+Central Bantu - Kasai,-4.2719698,19.4305,"Congo, DRC",0,7,0,0
+Twi - Lagoon,5.4709678,-3.9184401,Cote d'Ivoire,0,19,41,36
+Southern Nigerians - Central (incl. the Ibo),6.3212709,5.8036909,Nigeria,0,14,24,16
+Southern Nigerians - Yoruba,7.887887,2.62273,Benin,1,24,32,21
+Southern Nigerians - Idoma,6.5567622,8.8308811,Nigeria,0,1,1,1
+Bedouin Arabs,28.015301,31.1738,Egypt,0,53,127,233
+Southern Nigerians - Yoruba,7.1909232,5.3627448,Nigeria,0,29,22,17
+Southern Nigerians - Bantoid,5.6152329,8.8053722,Nigeria,1,0,0,0
+Mongo and Luba - Mongo,-2.00106,18.725901,"Congo, DRC",0,3,0,0
+Afar and Somali (Peoples of the Horn),10.3627,42.764301,Somalia,1,24,16,16
+Twi - Ewe,6.6117501,.85387498,Togo,1,5,17,64
+Nilotes - Bari,4.6568942,31.0289,Sudan,0,12,36,8
+Plateu Nigerians - Chadic,9.795763,13.6657,Cameroon,0,0,0,0
+Equatorial Bantu,1.730319,11.7481,Gabon,1,1,7,18
+Twi - Akan,5.4412079,-.94084001,Ghana,0,0,0,1
+Negroes of the Sudan Fringe - Bagirmi Province,10.748,18.9597,Chad,0,0,0,0
+Baggara,14.1156,30.0847,Sudan,0,2,3,0
+Bedouin Arabs,26.2078,15.1347,Libya,0,0,0,0
+Equatorial Bantu,4.8168311,11.3283,Cameroon,0,0,0,0
+Plateu Nigerians - Chadic,32.132,-.86036599,Algeria,0,0,0,0
+Plateu Nigerians - Chadic,31.445999,-4.4232302,Morocco,0,0,0,0
+Tanganyika Bantu - Rukwa,-7.7259102,31.240999,Tanzania,0,0,0,0
+Twi - Ewe,7.209065,2.103096,Benin,1,0,6,21
+Fulani,11.4976,-12.44,Guinea,1,5,2,17
+Fulani,15.3008,-14.6155,Senegal,0,0,0,0
+Cameroon Highlanders (Bantu),6.7671442,10.2652,Cameroon,1,0,0,0
+Negroes of the Sudan Fringe - Darfur Province,12.8453,23.731701,Sudan,0,66,72,0
+Cameroon Highlanders (Bantu),6.0777931,10.1926,Cameroon,0,3,0,5
+Twi - Ewe,5.7004852,-.193414,Ghana,0,4,10,17
+Baggara,17.2547,33.1469,Sudan,0,69,50,75
+Negroes of the Sudan Fringe - Bagirmi Province,9.3665581,16.405701,Chad,0,0,1,0
+Plateu Nigerians - Chadic,30.366199,9.4985256,Tunisia,1,0,0,0
+Bedouin Arabs,34.4384,8.8601418,Tunisia,0,0,0,2
+Kru and Peripheral Mande - Mande,6.4095469,-5.6602602,Cote d'Ivoire,0,1,1,1
+Plateu Nigerians - Bantoid Peoples,7.4846849,12.6396,Cameroon,0,0,0,0
+Voltaic Peoples - Lobi,7.733583,-4.1514301,Cote d'Ivoire,0,0,0,0
+Interlacustrine Bantu - Uganda,.41789499,31.970501,Uganda,0,56,83,120
+Kru and Peripheral Mande - Mande,7.7745008,-9.9088802,Liberia,0,35,26,0
+Plateu Nigerians - Kwa,9.720767,7.0713482,Nigeria,0,7,18,13
+Plateu Nigerians - Chadic,10.6237,9.9236803,Nigeria,0,9,7,7
+Afar and Somali (Peoples of the Horn),9.1362581,42.978199,Ethiopia,0,23,12,1
+Sidamo Peoples,7.9823251,36.733501,Ethiopia,0,6,2,3
+Bedouin Arabs,32.882198,-2.2409501,Morocco,1,0,0,0
+Southern Nigerians - Idoma,8.4961939,8.856082,Nigeria,0,0,0,0
+Sidamo Peoples,6.9629741,35.457298,Ethiopia,0,1,2,0
+Baggara,12.9669,32.465302,Sudan,0,4,1,1
+Plateu Nigerians - Chadic,10.6862,14.4986,Cameroon,0,1,1,0
+Interlacustrine Bantu - East Nyanza,1.297897,34.261501,Uganda,0,14,14,6
+Eastern Nigritic Peoples - Equatorial,4.652791,19.8335,"Congo, DRC",0,2,0,0
+Tanganyika Bantu - Rift,-6.19906,35.6511,Tanzania,0,1,1,1
+Kru and Peripheral Mande - Atlantic,7.1411371,-10.5386,Liberia,0,27,0,0
+Nguni - Ngoni,-14.2128,34.3955,Malawi,1,0,0,1
+Southern Cushites,-4.23388,35.907101,Tanzania,0,0,2,0
+Northeast Coastal Bantu - Nika,.81054401,42.819099,Somalia,0,22,23,2
+Kru and Peripheral Mande - Kru,4.9247589,-7.6554098,Liberia,1,26,4,6
+Voltaic Peoples - Grusi,10.7936,-1.54884,Ghana,1,0,0,0
+Twi - Akan,9.0792532,-1.31821,Ghana,0,3,0,0
+Plateu Nigerians - Chadic,10.2039,13.7817,Cameroon,1,0,0,0
+Voltaic Peoples - Senufo,10.1941,-4.7070799,Burkina Faso,0,0,0,3
+Central Sudanic Peoples - Sara (Northern),9.492075,20.322201,Chad,1,2,2,0
+Prenilotes,11.8261,34.339699,Sudan,0,36,5,9
+Prenilotes,11.389,35.645802,Ethiopia,0,0,0,0
+Twi - Ewe,6.6113181,2.760478,Nigeria,1,4,2,3
+Central Ethiopians,7.8856368,38.6101,Ethiopia,0,16,5,1
+Voltaic Peoples - Mole,10.8225,-.439132,Ghana,1,0,0,0
+Voltaic Peoples - Gurma,12.0893,1.2322429,Burkina Faso,1,2,0,0
+Kru and Peripheral Mande - Mande,7.3625722,-6.0166898,Cote d'Ivoire,0,16,11,8
+Interlacustrine Bantu - East Nyanza,-1.16014,34.478699,Tanzania,1,51,41,16
+Plateu Nigerians - Chadic,8.7412586,7.8904939,Nigeria,0,26,28,32
+Northeast Coastal Bantu - Nika,-3.24841,39.539902,Kenya,0,0,0,1
+Interlacustrine Bantu - Ruanda,-4.4540901,30.6285,Tanzania,0,8,14,0
+Baggara,11.0274,25.2344,Sudan,0,60,82,0
+Beja,17.3962,36.2243,Sudan,0,122,42,20
+Northeast Coastal Bantu - Swahili,-6.1352201,39.354198,Tanzania,0,2,26,13
+Bedouin Arabs,35.051701,9.1089668,Tunisia,1,8,8,0
+Baggara,12.7502,27.844299,Sudan,0,14,5,1
+Bedouin Arabs,34.482399,1.410108,Algeria,0,20,47,10
+Central Ethiopians,9.2235947,42.25,Ethiopia,0,32,6,2
+Baggara,14.5969,32.326698,Sudan,0,0,3,0
+Negroes of the Sudan Fringe - Hausa Province,12.3722,7.1488299,Nigeria,1,46,45,31
+Afar and Somali (Peoples of the Horn),4.6533532,46.743198,Somalia,0,95,81,8
+Interlacustrine Bantu - Uganda,-1.6157399,31.296301,Tanzania,0,1,1,2
+Tanganyika Bantu - Rufiji,-7.6946602,35.401798,Tanzania,0,1,2,1
+Bushmen and Their Kin,-19.6485,18.4221,Namibia,0,0,0,1
+Baggara,11.8581,20.177999,Chad,0,19,24,0
+Southwestern Bantu,-19.949301,15.2223,Namibia,0,1,6,68
+Bushmen and Their Kin,-19.7582,25.818399,Botswana,1,2,2,0
+Shona and Thonga - Thonga,-22.4909,33.296501,Mozambique,1,1,29,0
+Central Bantu - Kimbundu,-8.2618904,17.411501,Angola,1,14,4,0
+Central Bantu - Bemba,-6.4350801,29.2246,"Congo, DRC",0,0,0,0
+Interlacustrine Bantu - Ruanda,-1.02756,28.620501,"Congo, DRC",0,270,95,8
+Sotho,-26.061001,27.006001,South Africa,0,11,22,44
+Southern Nigerians - Bantoid,4.8357549,8.0620031,Nigeria,1,30,35,9
+Southern Nigerians - Central (incl. the Ibo),5.8689642,7.3206019,Nigeria,0,91,90,41
+Eastern Nigritic Peoples - Equatorial,4.5443058,30.5275,Sudan,0,0,1,0
+Southern Nigerians - Idoma,7.4462929,7.993856,Nigeria,0,1,0,0
+Southern Nigerians - Yoruba,7.4585018,4.7900348,Nigeria,0,12,6,7
+Southern Nigerians - Idoma,7.2065468,7.3039808,Nigeria,0,1,3,5
+Southern Nigerians - Nupe,7.9191961,6.7264781,Nigeria,0,4,8,6
+Southern Nigerians - Central (incl. the Ibo),4.8069549,6.2788372,Nigeria,0,223,230,50
+Southern Nigerians - Yoruba,6.672812,4.0867219,Nigeria,0,38,22,15
+Eastern Nigritic Peoples - Equatorial,1.469111,17.2701,Congo,0,0,0,0
+Middle Zambesi Bantu,-15.6927,26.8013,Zambia,0,0,1,1
+Bedouin Arabs,24.275999,-14.8975,Western Sahara,1,2,1,21
+Prenilotes,11.3533,33.882198,Sudan,0,1,0,0
+Tanganyika Bantu - Rift,-4.34547,34.426701,Tanzania,0,0,0,0
+Southern Cushites,-3.8132901,35.4081,Tanzania,0,0,0,2
+Afar and Somali (Peoples of the Horn),9.4392223,45.673199,Somalia,1,70,52,50
+Southern Nigerians - Central (incl. the Ibo),5.6044621,6.1304231,Nigeria,0,25,26,14
+Southern Nigerians - Central (incl. the Ibo),5.591023,5.4916139,Nigeria,0,72,49,29
+Galla,8.9449749,41.432201,Ethiopia,0,42,12,5
+Tanganyika Bantu - Rukwa,-9.4686604,32.518902,Zambia,1,0,2,12
+Southern Nigerians - Idoma,6.8921528,8.5376902,Nigeria,0,1,1,0
+Plateu Nigerians - Chadic,28.9727,21.2612,Libya,0,0,0,0
+Sidamo Peoples,7.8097339,37.4879,Ethiopia,0,0,4,0
+Plateu Nigerians - Bantoid Peoples,10.0998,9.5606146,Nigeria,0,1,0,0
+Bedouin Arabs,34.850601,-5.2803602,Morocco,0,2,0,1
+Plateu Nigerians - Eastern Nigritic,9.7142019,11.6702,Nigeria,0,0,1,0
+Plateu Nigerians - Bantoid Peoples,10.2013,8.8763218,Nigeria,0,0,0,0
+Plateu Nigerians - Chadic,33.793499,10.8641,Tunisia,0,0,1,2
+Bedouin Arabs,33.8922,8.4078197,Tunisia,1,0,0,2
+Plateu Nigerians - Bantoid Peoples,7.7765818,11.2955,Nigeria,0,1,0,0
+Nilotes - Karamojong,3.4128799,34.1371,Uganda,1,51,48,0
+Plateu Nigerians - Chadic,28.822399,16.539101,Libya,0,0,0,0
+Plateu Nigerians - Bantoid Peoples,8.596941,10.587,Nigeria,0,9,8,7
+Nilotes - Dinka,8.0788279,28.042601,Sudan,0,23,17,4
+Baggara,16.684099,29.446899,Sudan,0,2,1,0
+Voltaic Peoples - Tem,9.8190613,1.225421,Togo,1,0,1,0
+Plateu Nigerians - Chadic,36.5495,4.3070631,Algeria,0,70,27,32
+Plateu Nigerians - Bantoid Peoples,9.9936895,7.748908,Nigeria,0,1,2,0
+Sidamo Peoples,7.3855391,36.104401,Ethiopia,0,3,1,1
+Nuclear Mande,14.139,-8.7434797,Mali,0,0,0,0
+Equatorial Bantu,4.3760819,14.4458,Cameroon,0,0,0,0
+Equatorial Bantu,-.83450401,11.3278,Gabon,0,0,0,0
+Plateu Nigerians - Eastern Nigritic,8.5199785,11.025,Nigeria,0,0,0,0
+Kenya Highland Bantu,-1.61913,38.166599,Kenya,0,10,4,11
+Magalithic Cushites,7.5145612,38.0042,Ethiopia,0,3,1,0
+Plateu Nigerians - Bantoid Peoples,10.4087,5.4984522,Nigeria,0,4,3,1
+Central Ethiopians,13.1756,38.819199,Ethiopia,0,0,0,0
+Plateu Nigerians - Bantoid Peoples,10.4642,6.3812041,Nigeria,0,1,0,1
+Negroes of the Sudan Fringe - Bornu Province,13.9941,14.4347,Chad,1,14,1,1
+Negroes of the Sudan Fringe - Bornu Province,12.051,12.7484,Nigeria,0,22,16,4
+Central Bantu - Bemba,-13.0397,25.9685,Zambia,1,3,2,13
+Plateu Nigerians - Chadic,10.5201,13.6667,Cameroon,1,0,0,1
+Central Sudanic Peoples - Sara (Northern),9.4746161,22.8494,Central African Republic,1,39,10,0
+Voltaic Peoples - Senufo,10.4914,-4.3092799,Burkina Faso,0,0,0,0
+Nilotes - Karamojong,2.3410511,34.687302,Uganda,1,94,74,5
+Shona and Thonga - Shona,-20.286301,30.508101,Zimbabwe,0,2,312,41
+Eastern Nigritic Peoples - Equatorial,5.041338,25.9417,"Congo, DRC",1,0,6,0
+Negroes of the Sudan Fringe - Bornu Province,11.6764,11.1912,Nigeria,0,7,1,0
+Nuclear Mande,14.315,-10.6557,Mali,0,0,0,0
+Plateu Nigerians - Bantoid Peoples,9.7623749,8.3165693,Nigeria,0,3,2,0
+Nuba,11.7154,29.465599,Sudan,0,5,0,0
+Plateu Nigerians - Eastern Nigritic,18.2052,12.8163,Niger,0,1,0,0
+Twi - General Togo,7.7414818,.84064502,Togo,0,0,0,0
+Mongo and Luba - Mongo,-1.98036,23.708799,"Congo, DRC",0,3,0,0
+Central Ethiopians,12.5206,37.223801,Ethiopia,0,2,4,3
+Negroes of the Sudan Fringe - Bagirmi Province,12.1386,18.4582,Chad,0,5,1,0
+Plateu Nigerians - Bantoid Peoples,7.298923,10.5151,Nigeria,0,0,0,1
+Eastern Nigritic Peoples - Adamawa,5.3349271,13.3288,Cameroon,0,0,0,0
+Baggara,20.3515,28.982599,Sudan,0,0,1,0
+Interlacustrine Bantu - Uganda,-2.0810299,33.473301,Tanzania,0,0,0,0
+Nilotes - Nandi,.561212,35.7388,Kenya,0,3,2,0
+Sotho,-24.1061,22.7094,Botswana,0,0,1,0
+Sotho,-24.533199,27.3673,South Africa,1,0,0,0
+Bedouin Arabs,24.188601,30.482201,Egypt,0,0,0,0
+Kenya Highland Bantu,-.84719998,36.993599,Kenya,0,233,231,299
+Voltaic Peoples - Bargu,9.5395861,2.04774,Benin,0,0,0,0
+Tanganyika Bantu - Nyamwezi,-7.1834302,33.488602,Tanzania,0,0,0,0
+Central Bantu - Kimbundu,-8.81355,15.4847,Angola,0,500,91,46
+East African Hunters,-3.6161699,34.773102,Tanzania,0,0,0,0
+Tanganyika Bantu - Nyasa,-9.5497398,34.704201,Tanzania,0,0,1,0
+Nilotes - Nandi,-.43858099,35.230499,Kenya,0,8,11,23
+Central Bantu - Kimbundu,-9.8000002,13.7008,Angola,0,0,1,0
+Tanganyika Bantu - Nyasa,-9.8389997,34.507801,Tanzania,0,0,0,0
+Kru and Peripheral Mande - Atlantic,8.8853502,-10.053,Guinea,1,113,53,7
+Fulani,13.2433,-8.9297304,Mali,0,0,0,0
+Nuba,11.2766,30.7675,Sudan,0,51,8,4
+Middle Zambesi Bantu,-18.895399,23.517,Botswana,1,0,0,0
+Northwestern Bantu - Northern,4.0774598,10.636,Cameroon,0,0,0,1
+Cameroon Highlanders (Bantu),6.3713298,10.312,Cameroon,0,3,0,0
+Prenilotes,9.35993,34.2141,Ethiopia,1,14,3,2
+Voltaic Peoples - Senufo,9.7761803,-4.1435699,Cote d'Ivoire,1,0,0,1
+Plateu Nigerians - Chadic,10.3703,12.6476,Nigeria,0,1,0,0
+Central Bantu - Kongo,-6.62398,14.618,Angola,1,345,47,42
+Interlacustrine Bantu - Ruanda,-.179415,29.386101,"Congo, DRC",1,341,165,9
+Voltaic Peoples - Gurma,9.8417616,.56801498,Togo,1,0,0,1
+Kru and Peripheral Mande - Mande,8.7406931,-10.762,Sierra Leone,1,89,38,2
+Tanganyika Bantu - Nyamwezi,-6.4411802,32.0116,Tanzania,0,0,0,0
+Magalithic Cushites,5.5849848,37.589802,Ethiopia,0,0,0,0
+Nuclear Mande,8.6883678,-8.2376404,Guinea,1,2,0,1
+Bushmen and Their Kin,-28.6745,23.812599,South Africa,0,2,2,8
+Nuclear Mande,9.3852491,-10.4893,Guinea,1,17,20,1
+Shona and Thonga - Shona,-17.115,29.5116,Zimbabwe,0,1,247,3
+Plateu Nigerians - Kwa,9.4563065,7.5293651,Nigeria,0,1,1,1
+Bushmen and Their Kin,-15.5824,12.4102,Angola,0,1,0,0
+Northwestern Bantu - Northern,4.8286662,9.7901917,Cameroon,0,0,0,0
+Equatorial Bantu,.37376001,14.4448,Congo,1,1,0,1
+Negroes of the Sudan Fringe - Bornu Province,11.6967,15.153,Chad,1,60,16,7
+Eastern Nigritic Peoples - Adamawa,8.2121181,12.5353,Cameroon,0,0,0,0
+Negroes of the Sudan Fringe - Bornu Province,13.1383,12.853,Nigeria,0,0,0,0
+Northwestern Bantu - Northern,4.2265282,9.3454409,Cameroon,0,2,1,2
+Kru and Peripheral Mande - Mande,7.4342451,-9.1115398,Liberia,1,43,18,6
+Twi - General Togo,8.0697651,.119418,Ghana,0,0,2,0
+Kru and Peripheral Mande - Kru,5.989861,-8.0353003,Liberia,1,15,3,1
+Plateu Nigerians - Eastern Nigritic,14.4103,17.352301,Chad,0,6,0,0
+Central Sudanic Peoples - Sara (Northern),8.8022032,24.870199,Sudan,1,20,9,0
+Kru and Peripheral Mande - Kru,5.168942,-8.6723099,Liberia,0,7,8,0
+Central Bantu - Kasai,-4.6909299,21.881001,"Congo, DRC",0,3,1,1
+Bedouin Arabs,24.322901,22.291599,Libya,0,3,1,0
+Nilotes - Bari,3.929203,31.539101,Sudan,0,2,6,1
+Southern Nigerians - Central (incl. the Ibo),7.0275259,6.3780289,Nigeria,0,7,6,2
+Voltaic Peoples - Lobi,8.6843281,-3.3059299,Cote d'Ivoire,0,7,0,0
+Equatorial Bantu,-.39263901,26.8204,"Congo, DRC",0,43,7,0
+Negroes of the Sudan Fringe - Bagirmi Province,10.3498,16.147301,Chad,0,0,0,0
+Prenilotes,15.1473,37.358398,Eritrea,0,43,4,1
+Central Bantu - Maravi,-15.3998,31.951799,Mozambique,1,0,3,4
+Northwestern Bantu - Northern,4.8470712,9.1476049,Cameroon,0,0,0,2
+Bushmen and Their Kin,-20.128201,20.103701,Namibia,1,1,7,0
+Bedouin Arabs,20.487801,-.86221099,Mali,1,5,0,0
+Central Bantu - Kongo,-3.53615,12.7739,Congo,0,0,0,0
+Plateu Nigerians - Bantoid Peoples,10.3917,8.4995041,Nigeria,0,0,0,1
+Negroes of the Sudan Fringe - Hausa Province,14.1334,3.860841,Niger,0,0,0,0
+Mongo and Luba - Mongo,-3.1750801,20.904499,"Congo, DRC",0,3,1,0
+Southwestern Bantu,-17.1742,19.077299,Angola,1,58,49,6
+Sotho,-24.2316,25.4419,Botswana,0,0,1,0
+Northeast Coastal Bantu - Zigula,-6.3031301,38.399799,Tanzania,0,0,0,0
+Central Bantu - Kwango,-5.96732,18.606701,"Congo, DRC",0,0,0,0
+Nilotes - Luo,2.6667249,33.8685,Uganda,0,10,7,0
+Bedouin Arabs,33.818199,3.079531,Algeria,0,0,1,0
+Eastern Nigritic Peoples - Adamawa,8.1655512,15.7832,Chad,1,4,15,1
+Nguni - Ndebele,-24.222601,28.6353,South Africa,0,1,3,3
+Central Bantu - Bemba,-13.588,30.277,Zambia,0,0,0,3
+Central Bantu - Bemba,-12.752,27.909,Zambia,1,32,27,142
+Tanganyika Bantu - Rukwa,-9.60184,33.075802,Malawi,1,0,1,2
+Senegambians,10.9045,-14.2734,Guinea,0,3,2,1
+Nilotes - Luo,2.1234701,32.986599,Uganda,0,153,202,2
+Central Bantu - Kasai,-5.0754099,20.520901,"Congo, DRC",0,0,0,0
+Central Sudanic Peoples - Madi (Eastern),1.919566,30.524799,"Congo, DRC",0,272,79,23
+Equatorial Bantu,-.77053499,25.419001,"Congo, DRC",0,5,2,0
+Middle Zambesi Bantu,-14.7136,28.458799,Zambia,0,7,64,221
+Central Sudanic Peoples - Mangbetu (Southeastern),1.982041,29.1716,"Congo, DRC",0,2,1,0
+Cameroon Highlanders (Bantu),5.9034529,10.0459,Cameroon,0,1,0,0
+Voltaic Peoples - Intrusive Peoples,8.6627598,-2.50018,Ghana,1,0,0,0
+Equatorial Bantu,2.1217549,27.466101,"Congo, DRC",0,0,0,0
+Voltaic Peoples - Grusi,12.3489,-2.6194899,Burkina Faso,0,0,0,0
+Kru and Peripheral Mande - Atlantic,9.4641867,-11.9531,Sierra Leone,0,42,37,0
+Fulani,13.7115,.075916998,Burkina Faso,0,1,0,0
+Negroes of the Sudan Fringe - Bagirmi Province,12.9419,17.982401,Chad,0,1,0,0
+Voltaic Peoples - Lobi,10.0141,-3.3420999,Burkina Faso,1,5,0,0
+Central Sudanic Peoples - Madi (Eastern),3.428354,30.065001,"Congo, DRC",0,11,22,3
+Equatorial Bantu,.75815499,24.735901,"Congo, DRC",0,62,42,11
+Kru and Peripheral Mande - Mande,9.1624031,-12.1581,Sierra Leone,0,13,3,0
+Central Bantu - Yao,-15.4821,37.804401,Mozambique,0,0,11,8
+Plateu Nigerians - Eastern Nigritic,9.9071083,12.0048,Nigeria,0,0,0,0
+Nilotes - Bari,4.5216832,32.712101,Sudan,0,98,72,6
+Sotho,-24.262199,30.607201,South Africa,0,1,3,0
+Middle Zambesi Bantu,-15.3839,23.3402,Zambia,0,1,0,2
+Central Bantu - Bemba,-9.9710398,28.9305,Zambia,0,0,0,7
+Mongo and Luba - Luba,-8.20646,25.752199,"Congo, DRC",0,74,21,2
+Central Bantu - Lunda,-13.1495,20.1833,Angola,0,3,0,1
+Central Sudanic Peoples - Madi (Eastern),3.203891,30.8706,Uganda,1,14,31,4
+Northeast Coastal Bantu - Zigula,-7.2656102,37.853298,Tanzania,0,0,0,0
+Central Bantu - Lunda,-11.8398,17.626101,Angola,0,45,6,7
+Middle Zambesi Bantu,-13.6841,24.234501,Zambia,0,0,0,0
+Mongo and Luba - Luba,-5.9369602,22.3521,"Congo, DRC",0,26,10,8
+Northwestern Bantu - Southern,-2.5053501,10.8976,Gabon,0,0,0,2
+Mongo and Luba - Luba,-8.5685596,22.5847,"Congo, DRC",0,3,4,0
+Central Bantu - Bemba,-9.0505104,31.271999,Zambia,1,0,1,0
+Nilotes - Luo,-.293843,34.417999,Kenya,0,30,40,64
+Central Bantu - Kimbundu,-10.3262,15.1352,Angola,0,35,2,4
+Central Bantu - Lunda,-12.2644,21.814199,Angola,1,26,11,7
+Central Bantu - Kwango,-6.8163099,18.5758,"Congo, DRC",0,0,0,0
+Bedouin Arabs,28.275499,32.333,Egypt,0,3,17,3
+Negroes of the Sudan Fringe - Wadai Province,13.7494,20.180599,Chad,0,26,22,3
+Galla,9.3325491,37.159801,Ethiopia,0,21,16,16
+Plateu Nigerians - Bantoid Peoples,9.0444517,8.6005678,Nigeria,0,2,1,0
+Central Sudanic Peoples - Madi (Eastern),3.610863,31.8333,Uganda,1,37,65,8
+Negroes of the Sudan Fringe - Hausa Province,11.7042,8.8856907,Nigeria,0,6,8,1
+Nguni - Ngoni,-10.4752,36.0219,Tanzania,0,0,1,0
+Malagasy,-24.455601,44.380901,Madagascar,0,0,0,0
+Baggara,15.2939,20.5109,Chad,0,9,2,0
+Equatorial Bantu,4.1472249,13.2438,Cameroon,0,0,1,0
+Central Sudanic Peoples - Mangbetu (Southeastern),2.6229081,26.4279,"Congo, DRC",0,0,0,0
+Central Bantu - Yao,-10.9992,39.783501,Mozambique,1,0,1,12
+Central Bantu - Yao,-13.6852,38.913799,Mozambique,0,0,10,13
+Nuclear Mande,11.8663,-10.65,Guinea,1,73,45,71
+Plateu Nigerians - Bantoid Peoples,9.1235809,9.0254879,Nigeria,0,0,2,0
+Plateu Nigerians - Bantoid Peoples,6.8964348,11.6692,Nigeria,1,0,0,0
+Voltaic Peoples - Mole,10.3616,-.51626098,Ghana,0,3,0,1
+Central Sudanic Peoples - Mangbetu (Southeastern),2.7143769,29.3843,"Congo, DRC",0,11,4,0
+Nguni - Ndebele,-25.906601,28.3263,South Africa,0,108,184,373
+Negroes of the Sudan Fringe - Bornu Province,11.4462,14.1912,Nigeria,1,6,0,0
+Eastern Nigritic Peoples - Equatorial,5.9563379,18.3248,Central African Republic,0,23,13,0
+Negroes of the Sudan Fringe - Bornu Province,13.4071,11.3481,Niger,1,4,1,0
+Central Sudanic Peoples - Mangbetu (Southeastern),3.3967259,27.795,"Congo, DRC",0,4,12,0
+Shona and Thonga - Shona,-18.817499,32.774601,Mozambique,1,6,167,18
+Prenilotes,9.0259752,34.778801,Ethiopia,0,19,0,4
+Plateu Nigerians - Chadic,10.7779,13.2106,Nigeria,0,0,0,0
+Eastern Nigritic Peoples - Adamawa,9.929327,15.6569,Chad,0,0,1,0
+Nilotes - Masai,-2.9212601,36.417,Tanzania,1,55,70,64
+Negroes of the Sudan Fringe - Wadai Province,13.1873,22.4792,Sudan,1,58,84,4
+Middle Zambesi Bantu,-15.3989,25.389999,Zambia,0,0,0,0
+Middle Zambesi Bantu,-16.1651,22.5396,Zambia,1,2,4,0
+Fulani,15.2041,-3.8538001,Mali,1,1,1,0
+Prenilotes,7.8699889,34.994701,Ethiopia,0,0,0,0
+Plateu Nigerians - Chadic,10.8208,13.7906,Cameroon,1,0,1,0
+Tanganyika Bantu - Nyasa,-11.0086,35.183399,Tanzania,0,0,0,0
+Plateu Nigerians - Chadic,33.5354,9.4963608,Tunisia,0,0,0,0
+Negroes of the Sudan Fringe - Hausa Province,13.3331,3.7760611,Niger,0,0,0,0
+Central Sudanic Peoples - Mangbetu (Southeastern),2.663204,27.9811,"Congo, DRC",0,0,0,0
+Central Sudanic Peoples - Mangbetu (Southeastern),1.194465,25.253599,"Congo, DRC",0,0,0,0
+Mongo and Luba - Luba,-7.08356,22.247999,"Congo, DRC",0,15,7,2
+Central Bantu - Kwango,-4.82061,18.2136,"Congo, DRC",0,2,1,1
+Central Bantu - Kimbundu,-9.2980404,18.2288,Angola,0,34,10,2
+Southern Nigerians - Bantoid,6.110755,8.4642563,Nigeria,0,2,1,0
+Eastern Nigritic Peoples - Adamawa,7.1164069,15.8599,Central African Republic,1,31,36,1
+Equatorial Bantu,1.553897,22.967199,"Congo, DRC",0,0,0,0
+Mongo and Luba - Mongo,-1.64343,21.0044,"Congo, DRC",0,0,1,0
+Plateu Nigerians - Bantoid Peoples,9.6048679,12.3676,Nigeria,0,0,0,0
+Southern Cushites,-4.4998999,38.288898,Tanzania,0,0,0,0
+Tanganyika Bantu - Rift,-3.7550001,35.903801,Tanzania,0,0,0,0
+Middle Zambesi Bantu,-17.312901,21.278299,Angola,1,16,17,2
+Eastern Nigritic Peoples - Adamawa,7.458189,13.6731,Cameroon,0,0,1,0
+Central Bantu - Lunda,-14.4308,21.107,Angola,1,8,0,2
+Southwestern Bantu,-12.4178,15.7926,Angola,0,744,104,43
+Tanganyika Bantu - Rufiji,-8.1078701,36.984299,Tanzania,0,0,0,0
+Central Bantu - Lunda,-15.3011,19.1854,Angola,0,14,1,3
+Prenilotes,10.2922,33.557999,Sudan,0,20,3,2
+Central Sudanic Peoples - Mangbetu (Southeastern),2.6312909,27.281799,"Congo, DRC",0,24,5,1
+Twi - Lagoon,5.4423079,-3.1131899,Cote d'Ivoire,0,1,0,0
+Plateu Nigerians - Chadic,36.447399,2.08202,Algeria,0,13,14,3
+Kru and Peripheral Mande - Mande,7.9513049,-11.1817,Sierra Leone,1,225,47,9
+Negroes of the Sudan Fringe - Wadai Province,14.4209,21.543301,Chad,0,23,24,0
+Malagasy,-18.328199,46.979,Madagascar,0,5,41,170
+Kenya Highland Bantu,.016661,38.104401,Kenya,0,14,14,6
+Baggara,11.0866,28.342199,Sudan,0,6,5,0
+Afar and Somali (Peoples of the Horn),9.0181818,48.774101,Somalia,0,129,133,38
+Negroes of the Sudan Fringe - Wadai Province,14.787,20.2787,Chad,0,0,0,0
+Voltaic Peoples - Senufo,11.7585,-5.2992601,Mali,1,3,0,2
+Central Sudanic Peoples - Madi (Eastern),5.8087001,29.7388,Sudan,0,20,23,2
+Voltaic Peoples - Gurma,10.6612,.469578,Togo,0,0,0,0
+Negroes of the Sudan Fringe - Bornu Province,13.432,12.5509,Niger,0,24,3,3
+Nguni - Ngoni,-11.9885,33.473801,Malawi,1,0,1,0
+Nilotes - Bari,5.8556471,31.3936,Sudan,0,2,8,4
+Mongo and Luba - Mongo,.94008398,21.0872,"Congo, DRC",0,29,3,0
+Bedouin Arabs,32.744999,-7.5788202,Morocco,0,3,6,58
+Central Sudanic Peoples - Madi (Eastern),5.253263,30.410299,Sudan,0,2,5,2
+Voltaic Peoples - Mole,12.7265,-1.1704299,Burkina Faso,0,6,13,75
+Nguni - Ngoni,-13.5624,32.386501,Zambia,1,0,0,2
+Northwestern Bantu - Southern,-.98688501,9.6255827,Gabon,0,0,2,5
+Negroes of the Sudan Fringe - Wadai Province,12.5199,19.6556,Chad,0,0,2,0
+Cameroon Highlanders (Bantu),5.6742978,11.0545,Cameroon,0,0,0,0
+Plateu Nigerians - Eastern Nigritic,9.0131454,11.8184,Nigeria,0,1,1,0
+Eastern Nigritic Peoples - Adamawa,9.6885509,14.676,Chad,1,0,2,2
+Eastern Nigritic Peoples - Equatorial,4.3456302,30.131201,Sudan,1,7,6,1
+Nilotes - Beir,6.2658348,33.311298,Sudan,0,5,1,1
+Negroes of the Sudan Fringe - Bagirmi Province,10.9947,15.3075,Chad,1,2,4,0
+Central Bantu - Yao,-9.6311998,39.044498,Tanzania,0,0,0,0
+Plateu Nigerians - Chadic,32.685501,3.757489,Algeria,0,2,1,6
+Voltaic Peoples - Senufo,8.304635,-2.3971,Ghana,1,0,0,0
+Bedouin Arabs,33.9758,4.5329862,Algeria,0,1,1,0
+Sidamo Peoples,6.2983508,35.731998,Ethiopia,0,0,0,0
+Senegambians,11.0361,-14.8971,Guinea,1,0,0,0
+Bushmen and Their Kin,-26.373301,17.6493,Namibia,1,0,2,15
+Bushmen and Their Kin,-26.4188,15.7201,Namibia,0,0,0,10
+Eastern Nigritic Peoples - Adamawa,8.5023212,13.3834,Cameroon,0,0,0,0
+Nilotes - Nandi,.47679999,35.2332,Kenya,0,18,38,48
+Bushmen and Their Kin,-21.793699,21.2913,Botswana,0,0,0,0
+Voltaic Peoples - Mole,10.0784,1.408735,Benin,1,0,0,0
+Equatorial Bantu,1.364175,27.1343,"Congo, DRC",0,15,1,0
+Tanganyika Bantu - Rufiji,-8.57761,35.940201,Tanzania,0,0,0,0
+Shona and Thonga - Shona,-20.245899,33.720798,Mozambique,1,0,70,13
+Nguni - Ndebele,-19.713301,28.146,Zimbabwe,0,3,174,76
+Central Bantu - Lunda,-11.6122,24.0443,Angola,1,34,6,5
+Cameroon Highlanders (Bantu),5.942348,10.5901,Cameroon,0,1,1,1
+Eastern Nigritic Peoples - Equatorial,6.9597688,26.9256,Sudan,1,38,53,4
+Equatorial Bantu,2.0632429,20.8172,"Congo, DRC",0,1,0,0
+Southwestern Bantu,-13.3838,13.5642,Angola,0,46,32,5
+Plateu Nigerians - Bantoid Peoples,7.5505242,10.8441,Nigeria,0,0,0,0
+Central Sudanic Peoples - Sara (Northern),8.3045778,19.251499,Central African Republic,1,31,13,1
+Plateu Nigerians - Chadic,31.764799,11.503,Libya,0,0,0,1
+Cameroon Highlanders (Bantu),4.703227,10.776,Cameroon,0,0,0,0
+Equatorial Bantu,1.269527,18.862499,"Congo, DRC",0,40,7,1
+Central Sudanic Peoples - Sara (Northern),7.6541162,17.4634,Central African Republic,1,8,11,0
+Mongo and Luba - Mongo,.026797,23.3587,"Congo, DRC",0,12,0,0
+Eastern Nigritic Peoples - Equatorial,3.7668591,21.8328,"Congo, DRC",0,5,2,0
+Central Sudanic Peoples - Mangbetu (Southeastern),2.884491,28.3388,"Congo, DRC",0,4,0,0
+Southern Nigerians - Nupe,7.5922561,6.9813981,Nigeria,0,1,0,0
+Kru and Peripheral Mande - Mande,6.85604,-8.0234203,Cote d'Ivoire,1,111,48,3
+Central Bantu - Yao,-9.3751402,37.869301,Tanzania,0,0,1,0
+Negroes of the Sudan Fringe - Bornu Province,12.1246,10.8,Nigeria,0,0,1,0
+Equatorial Bantu,-.89576399,21.468599,"Congo, DRC",0,4,2,0
+Central Bantu - Kwango,-5.3289499,18.386499,"Congo, DRC",0,0,0,0
+Southwestern Bantu,-14.4962,16.938601,Angola,0,92,14,3
+Northwestern Bantu - Northern,2.479835,10.4282,Equatorial Guinea,1,0,0,0
+Southwestern Bantu,-15.1734,15.1978,Angola,0,16,6,2
+Northeast Coastal Bantu - Zigula,-6.1361098,37.6073,Tanzania,0,0,0,0
+Sotho,-25.242001,25.240601,Botswana,1,3,3,10
+Sotho,-22.644899,27.017401,Botswana,0,0,0,0
+Interlacustrine Bantu - Ruanda,-.57175499,30.498899,Uganda,0,16,17,7
+Middle Zambesi Bantu,-14.8311,24.3242,Zambia,0,0,1,0
+Mongo and Luba - Mongo,-.317359,19.491501,"Congo, DRC",0,7,2,0
+Nuclear Mande,13.9637,-4.1212902,Mali,0,0,0,0
+Cameroon Highlanders (Bantu),6.2541642,10.8294,Cameroon,0,1,0,1
+Central Bantu - Maravi,-14.8887,30.5341,Zambia,1,0,0,2
+Cameroon Highlanders (Bantu),6.4943709,11.1474,Cameroon,1,0,0,0
+Nilotes - Dinka,8.532238,31.7677,Sudan,0,153,53,4
+Bushmen and Their Kin,-17.777201,22.806801,Namibia,1,50,10,1
+Voltaic Peoples - Grusi,11.5101,-2.0903699,Burkina Faso,0,0,1,0
+Southern Nigerians - Nupe,9.1028605,5.7628512,Nigeria,0,2,1,2
+Bushmen and Their Kin,-25.7383,20.4718,South Africa,1,0,0,1
+Tanganyika Bantu - Nyasa,-9.2895899,33.705502,Tanzania,1,0,0,0
+Tanganyika Bantu - Nyamwezi,-5.0728898,32.814098,Tanzania,0,0,0,0
+Southwestern Bantu,-15.5509,13.9562,Angola,0,12,7,4
+Nilotes - Beir,3.779671,33.712399,Uganda,1,4,8,1
+Central Bantu - Maravi,-15.7195,35.4202,Malawi,1,2,10,23
+Equatorial Bantu,2.1776259,30.1539,"Congo, DRC",0,84,27,1
+Central Bantu - Maravi,-12.2426,34.9533,Mozambique,1,0,0,0
+Nubians,12.0005,29.3736,Sudan,0,4,1,1
+Interlacustrine Bantu - Uganda,1.737416,31.691401,Uganda,0,28,23,5
+Eastern Nigritic Peoples - Equatorial,4.7187042,22.822001,"Congo, DRC",1,1,5,0
+Southern Nigerians - Bantoid,5.218451,8.4188662,Nigeria,0,0,0,1
+Afar and Somali (Peoples of the Horn),6.5301099,44.101299,Ethiopia,0,373,95,4
+Bushmen and Their Kin,-21.7166,24.303499,Botswana,0,0,0,8
+Negroes of the Sudan Fringe - Bagirmi Province,11.3616,17.9569,Chad,0,1,2,0
+Sidamo Peoples,6.5088248,37.362598,Ethiopia,0,3,9,1
+Southern Nigerians - Bantoid,6.5751462,8.3581743,Nigeria,0,4,0,0
+Nilotes - Dinka,10.184,32.509998,Sudan,0,3,4,0
+Equatorial Bantu,3.361737,17.0228,Congo,1,1,0,0
+Kenya Highland Bantu,-4.1068401,37.896198,Tanzania,0,0,0,0
+Nilotes - Dinka,5.3185868,32.696899,Sudan,0,0,0,0
+Sotho,-25.9207,29.8127,South Africa,0,12,27,59
+Northeast Coastal Bantu - Swahili,-5.1817098,39.757301,Tanzania,0,0,12,5
+Central Bantu - Kwango,-6.0361199,19.7185,"Congo, DRC",0,4,0,0
+Senegambians,12.0474,-15.9385,Guinea-Bissau,0,65,13,9
+Tanganyika Bantu - Rukwa,-7.1687298,31.604,Tanzania,0,0,0,0
+Plateu Nigerians - Chadic,11.0557,14.1299,Cameroon,0,0,0,0
+Tanganyika Bantu - Rufiji,-8.7937298,36.6562,Tanzania,0,0,0,0
+Northeast Coastal Bantu - Nika,-.95397502,39.8228,Kenya,0,16,15,10
+Nguni - Nguni,-31.3894,29.310301,South Africa,0,5,20,3
+Twi - Ewe,6.3948159,1.884765,Benin,1,0,2,1
+Equatorial Bantu,2.142148,22.0291,"Congo, DRC",0,0,0,0
+Northwestern Bantu - Northern,1.733393,9.8119097,Equatorial Guinea,1,1,6,12
+Tanganyika Bantu - Rift,-4.6308098,36.0369,Tanzania,0,0,0,0
+Equatorial Bantu,-2.93203,27.733,"Congo, DRC",0,168,63,4
+Bedouin Arabs,22.8533,-12.1649,Mauritania,1,2,1,7
+Galla,3.4702251,36.969101,Kenya,0,6,17,0
+Plateu Nigerians - Bantoid Peoples,11.156,4.698977,Nigeria,0,1,1,0
+Magalithic Cushites,4.9214468,36.308399,Ethiopia,1,8,14,0
+Plateu Nigerians - Chadic,34.790798,-3.7182901,Morocco,0,2,0,2
+Bedouin Arabs,29.3946,12.3438,Libya,0,0,0,0
+Sotho,-26.9168,25.5658,South Africa,0,3,7,38
+Shona and Thonga - Thonga,-26.518101,32.423901,Mozambique,1,12,26,43
+Interlacustrine Bantu - Ruanda,-1.9311,29.9354,Rwanda,1,236,222,14
+Bedouin Arabs,33.322601,5.9115968,Algeria,0,1,0,5
+Baggara,13.1657,34.252201,Sudan,0,9,5,9
+Central Sudanic Peoples - Mangbetu (Southeastern),.63315398,27.073799,"Congo, DRC",0,0,0,0
+Interlacustrine Bantu - Ruanda,-3.2822101,30.0875,Burundi,1,1402,1204,41
+Negroes of the Sudan Fringe - Wadai Province,10.6865,21.430901,Chad,1,10,11,0
+Bedouin Arabs,29.3361,27.8468,Egypt,0,1,2,0
+Afar and Somali (Peoples of the Horn),2.7854271,43.851501,Somalia,0,1608,1027,65
+Nilotes - Nandi,1.197009,34.697701,Uganda,1,36,50,3
+Tanganyika Bantu - Rukwa,-8.5433397,33.1464,Tanzania,0,0,0,0
+Tanganyika Bantu - Rufiji,-6.81425,36.8442,Tanzania,0,0,1,0
+Plateu Nigerians - Chadic,35.543999,10.4972,Tunisia,0,0,0,0
+Afar and Somali (Peoples of the Horn),14.3435,39.927299,Eritrea,1,0,2,0
+Malagasy,-17.645901,46.050098,Madagascar,0,4,11,20
+Central Bantu - Kasai,-2.8408899,17.7799,"Congo, DRC",0,3,1,1
+Central Sudanic Peoples - Sara (Northern),8.8148947,17.573799,Chad,0,2,3,1
+Nilotes - Masai,1.089913,36.913399,Kenya,0,55,96,16
+Voltaic Peoples - Intrusive Peoples,13.3766,-2.9015999,Burkina Faso,1,0,0,1
+East African Hunters,-5.2278399,35.591202,Tanzania,0,0,0,0
+Plateu Nigerians - Bantoid Peoples,2.260324,16.185301,Cameroon,1,0,1,0
+Tanganyika Bantu - Rufiji,-8.0883598,34.090801,Tanzania,0,0,0,0
+Bedouin Arabs,30.3883,21.884701,Libya,0,1,0,0
+East African Hunters,-1.75582,39.445301,Kenya,0,13,5,0
+Kru and Peripheral Mande - Kru,5.7537761,-8.5086002,Liberia,0,0,0,0
+Northeast Coastal Bantu - Swahili,-3.2137101,39.996799,Kenya,0,19,19,12
+Northwestern Bantu - Northern,.66219997,9.895956,Gabon,1,0,0,1
+Central Bantu - Kimbundu,-11.2224,14.1511,Angola,0,7,12,0
+Baggara,11.2529,31.921101,Sudan,0,2,1,0
+Central Bantu - Maravi,-18.108101,34.728199,Mozambique,0,1,10,3
+Central Bantu - Bemba,-11.3119,32.722099,Zambia,0,0,0,0
+Voltaic Peoples - Senufo,9.2532825,-5.6079798,Cote d'Ivoire,0,26,6,24
+Senegambians,14.0214,-16.0483,Senegal,0,2,4,2
+Baggara,17.9734,32.392601,Sudan,0,0,1,0
+Kenya Highland Bantu,-4.6855502,38.418999,Tanzania,1,0,0,1
+Interlacustrine Bantu - East Nyanza,-1.9439,34.470699,Tanzania,0,0,3,1
+Plateu Nigerians - Chadic,35.489899,6.7900639,Algeria,0,14,3,6
+Northeast Coastal Bantu - Nika,5.1101131,44.992199,Ethiopia,1,95,75,10
+Kru and Peripheral Mande - Atlantic,7.6447492,-12.3055,Sierra Leone,0,55,6,1
+Central Bantu - Bemba,-9.45047,28.194,"Congo, DRC",0,0,3,0
+Prenilotes,9.9045334,31.7481,Sudan,0,36,20,4
+Plateu Nigerians - Chadic,30.3575,-8.3119698,Morocco,0,0,0,0
+Northwestern Bantu - Southern,-1.07029,11.9463,Gabon,0,0,1,0
+Baggara,14.5576,35.128899,Sudan,0,11,1,5
+Baggara,12.3774,15.2744,Chad,1,5,2,0
+Voltaic Peoples - Intrusive Peoples,11.7893,-4.1949401,Burkina Faso,0,0,1,5
+Bedouin Arabs,31.7621,.796565,Algeria,0,0,0,0
+Malagasy,-17.3957,48.5098,Madagascar,0,0,1,0
+Negroes of the Sudan Fringe - Darfur Province,12.0762,21.7456,Chad,0,29,21,0
+Interlacustrine Bantu - Uganda,-2.73248,31.610001,Tanzania,0,0,2,0
+Bedouin Arabs,30.4641,16.5168,Libya,0,0,0,0
+Plateu Nigerians - Chadic,29.0224,25.816,Egypt,0,0,0,0
+Interlacustrine Bantu - Uganda,.956213,33.572498,Uganda,0,12,18,3
+Equatorial Bantu,1.449635,23.6754,"Congo, DRC",0,1,0,0
+Fulani,12.7848,4.421279,Nigeria,0,2,4,0
+Bedouin Arabs,14.5743,15.2379,Chad,0,0,0,0
+Voltaic Peoples - Bargu,10.4795,1.4244061,Benin,0,0,0,0
+Negroes of the Sudan Fringe - Bagirmi Province,10.0141,17.0847,Chad,0,0,0,0
+Mongo and Luba - Luba,-5.4024,25.4156,"Congo, DRC",0,71,19,5
+Negroes of the Sudan Fringe - Songhai Province,15.3714,-.85261703,Mali,1,10,9,1
+Central Bantu - Lunda,-10.6119,17.684401,Angola,0,11,1,3
+Equatorial Bantu,-2.8238299,26.1024,"Congo, DRC",0,61,12,1
+Mongo and Luba - Mongo,-3.7269599,22.690001,"Congo, DRC",0,1,0,2
+Nuclear Mande,15.1607,-9.4777403,Mali,1,9,3,1
+Interlacustrine Bantu - East Nyanza,-2.1550901,35.8265,Tanzania,0,4,1,0
+Sotho,-28.975,27.6479,South Africa,1,57,39,66
+Bedouin Arabs,33.917,6.766386,Algeria,0,1,0,0
+Middle Zambesi Bantu,-17.655399,24.795099,Namibia,1,7,8,7
+Nilotes - Nandi,1.276575,35.712399,Kenya,0,33,46,6
+Central Bantu - Kwango,-5.91751,17.808901,"Congo, DRC",0,9,0,0
+Tanganyika Bantu - Nyamwezi,-3.10109,33.726501,Tanzania,0,0,5,3
+Tanganyika Bantu - Nyamwezi,-3.6275599,31.7279,Tanzania,0,0,2,0
+Central Bantu - Kongo,-4.4878502,13.99,"Congo, DRC",1,8,3,0
+Nilotes - Beir,6.0936341,35.291,Ethiopia,1,0,0,0
+Nuclear Mande,10.2601,-13.1577,Guinea,0,39,57,72
+Nguni - Nguni,-26.561899,31.337799,Swaziland,1,30,26,46
+Central Bantu - Bemba,-8.2906303,29.5814,"Congo, DRC",1,64,10,3
+Nuba,12.1215,31.4188,Sudan,0,1,3,1
+Bedouin Arabs,28.156601,-7.5948801,Algeria,1,2,1,0
+Nuba,10.6732,30.567101,Sudan,0,0,0,1
+Negroes of the Sudan Fringe - Darfur Province,14.3155,22.815201,Sudan,1,46,13,0
+Malagasy,-20.902901,47.679798,Madagascar,0,0,1,3
+Plateu Nigerians - Chadic,9.9038572,11.4787,Nigeria,0,4,0,0
+Bushmen and Their Kin,-19.2946,21.9767,Botswana,0,0,0,0
+Plateu Nigerians - Chadic,17.084101,-15.7266,Mauritania,0,0,0,0
+Nilotes - Nandi,-4.6847,35.377701,Tanzania,0,0,0,0
+Sotho,-19.9939,22.779499,Botswana,0,1,0,0
+Shona and Thonga - Shona,-17.1912,32.8573,Zimbabwe,1,2,245,2
+Negroes of the Sudan Fringe - Hausa Province,13.9276,7.9435668,Niger,0,0,0,4
+Plateu Nigerians - Eastern Nigritic,21.743799,16.325001,Chad,1,25,5,0
+Kenya Highland Bantu,-3.3466699,38.4487,Kenya,0,0,4,17
+Northwestern Bantu - Southern,-2.8830299,15.464,Congo,1,50,56,48
+Plateu Nigerians - Chadic,27.817301,-10.9085,Morocco,1,1,0,6
+Voltaic Peoples - Tem,8.9497738,1.306829,Togo,1,0,2,1
+Nuba,11.6961,29.8351,Sudan,0,2,1,0
+Nguni - Nguni,-31.821301,27.838301,South Africa,0,5,4,0
+Kru and Peripheral Mande - Atlantic,8.6687889,-12.2529,Sierra Leone,0,313,92,5
+Senegambians,12.5095,-12.996,Guinea,1,0,0,2
+Negroes of the Sudan Fringe - Bornu Province,10.5371,11.7827,Nigeria,0,1,2,0
+Nilotes - Karamojong,1.971395,33.939098,Uganda,0,80,90,1
+Mongo and Luba - Mongo,-3.68273,24.4552,"Congo, DRC",0,19,5,1
+Shona and Thonga - Thonga,-24.1481,32.021702,Mozambique,1,3,10,4
+Voltaic Peoples - Intrusive Peoples,11.8306,3.7382851,Nigeria,1,0,0,0
+Plateu Nigerians - Bantoid Peoples,6.8796682,11.0081,Nigeria,1,1,1,0
+Beja,16.302099,38.536701,Eritrea,0,4,4,0
+Central Ethiopians,14.5248,38.314899,Eritrea,1,92,86,3
+Cameroon Highlanders (Bantu),5.9084539,11.7249,Cameroon,0,0,0,0
+Plateu Nigerians - Bantoid Peoples,7.330617,9.1554461,Nigeria,0,16,12,5
+Sotho,-27.6945,24.527399,South Africa,0,0,1,3
+Sotho,-26.9398,22.8496,South Africa,0,1,0,0
+Sotho,-23.048401,29.1378,South Africa,1,4,7,10
+Kru and Peripheral Mande - Mande,8.1964874,-9.3714705,Guinea,1,128,19,3
+Middle Zambesi Bantu,-16.7911,27.163601,Zambia,1,0,117,9
+Equatorial Bantu,.33662599,23.9641,"Congo, DRC",0,0,1,0
+Nilotes - Karamojong,5.257205,34.487099,Sudan,0,2,6,1
+Interlacustrine Bantu - Uganda,.69719398,30.6045,Uganda,0,71,54,2
+Middle Zambesi Bantu,-16.346901,24.5296,Zambia,0,0,1,0
+Bedouin Arabs,17.9258,-14.5152,Mauritania,0,0,0,0
+Twi - General Togo,8.0173826,.81360197,Togo,1,0,0,0
+Bedouin Arabs,32.405998,12.6537,Libya,1,2,3,19
+Malagasy,-15.4668,48.845299,Madagascar,0,0,0,1
+Plateu Nigerians - Chadic,28.2554,1.14501,Algeria,0,3,0,0
+Plateu Nigerians - Chadic,10.3103,15.0941,Cameroon,1,0,0,0
+Fulani,16.0805,-13.904,Mauritania,1,0,0,0
+Galla,9.59198,39.3354,Ethiopia,0,41,54,41
+Central Bantu - Maravi,-10.7866,33.6968,Malawi,1,0,5,3
+Nuba,10.9544,29.8111,Sudan,0,11,9,9
+Baggara,14.1193,25.051201,Sudan,0,37,28,0
+Bedouin Arabs,36.579899,9.2923384,Tunisia,1,5,7,30
+Nilotes - Karamojong,3.404871,35.397202,Kenya,0,69,84,2
+Tanganyika Bantu - Rift,-5.1471,34.676399,Tanzania,0,0,0,0
+Voltaic Peoples - Lobi,10.9707,-4.3389401,Burkina Faso,0,0,0,0
+Plateu Nigerians - Chadic,15.6386,-.863684,Mali,1,1,1,0
+Central Bantu - Bemba,-11.5806,30.1975,Zambia,0,0,0,0
+Plateu Nigerians - Chadic,33.361599,-3.5621901,Morocco,0,0,0,0
+Voltaic Peoples - Grusi,9.1062336,-2.2992599,Ghana,0,0,0,0
+Kru and Peripheral Mande - Mande,6.9022331,-11.1583,Liberia,1,53,7,0
+Sotho,-22.554501,30.205299,South Africa,1,0,4,6
+Plateu Nigerians - Eastern Nigritic,9.1273642,12.5701,Nigeria,0,2,2,1
+Central Bantu - Kongo,-4.6606398,12.0583,Congo,1,50,45,4
+Voltaic Peoples - Bargu,9.9829006,-2.21733,Ghana,0,1,0,0
+Plateu Nigerians - Chadic,11.1913,13.8204,Nigeria,1,3,1,0
+Galla,8.9633894,35.6287,Ethiopia,0,6,8,1
+Galla,11.7504,39.791302,Ethiopia,0,15,7,8
+Interlacustrine Bantu - East Nyanza,.62213999,34.541,Kenya,1,27,29,28
+Voltaic Peoples - Senufo,10.6474,-5.0082302,Burkina Faso,0,0,0,0
+Plateu Nigerians - Chadic,33.566299,-4.1907501,Morocco,0,0,0,0
+Plateu Nigerians - Chadic,11.3363,9.7279425,Nigeria,0,1,0,0
+Cameroon Highlanders (Bantu),6.0257339,9.8551598,Cameroon,0,0,1,0
+Kru and Peripheral Mande - Kru,7.3409648,-7.1719499,Cote d'Ivoire,0,0,3,0
+Senegambians,15.215,-16.222601,Senegal,0,5,2,6
+Cameroon Highlanders (Bantu),6.55511,9.8572121,Cameroon,1,0,0,0
+Plateu Nigerians - Chadic,9.3922815,11.2967,Nigeria,0,0,0,0
+Eastern Nigritic Peoples - Equatorial,5.4134011,12.3927,Cameroon,0,0,0,0
+Bushmen and Their Kin,-30.748899,22.634701,South Africa,0,3,6,7
+Nguni - Nguni,-32.7393,27.5881,South Africa,0,7,12,6
+Bedouin Arabs,34.167099,-3.1461501,Morocco,0,0,0,0
+Central Bantu - Kwango,-6.2562399,17.1523,"Congo, DRC",1,6,3,0
+Southern Nigerians - Bantoid,5.7228761,8.2822599,Nigeria,0,0,3,0
+Eastern Nigritic Peoples - Equatorial,4.3035979,21.778,Central African Republic,1,0,3,0
+Nuclear Mande,10.0869,-11.2258,Guinea,1,3,7,2
+Eastern Nigritic Peoples - Equatorial,4.121738,16.273899,Central African Republic,0,0,0,0
+Central Bantu - Kasai,-3.98035,18.101,"Congo, DRC",0,0,0,0
+Central Bantu - Yao,-12.5433,36.413601,Mozambique,1,0,8,8
+Mongo and Luba - Mongo,-10.5036,27.4487,"Congo, DRC",0,1,0,0
+Plateu Nigerians - Bantoid Peoples,9.2409334,9.9679241,Nigeria,0,4,2,0
+Plateu Nigerians - Bantoid Peoples,9.2180328,8.0008898,Nigeria,0,0,0,0
+Central Bantu - Kongo,-4.7930498,12.9609,Angola,1,15,14,0
+Southern Nigerians - Yoruba,8.3165541,4.1147099,Nigeria,0,45,52,26
+Plateu Nigerians - Eastern Nigritic,9.9095678,12.5352,Nigeria,0,0,1,0
+Plateu Nigerians - Eastern Nigritic,15.6571,24.7057,Sudan,1,32,27,0
+Northeast Coastal Bantu - Swahili,-7.2467899,38.8843,Tanzania,0,0,5,2
+Plateu Nigerians - Chadic,34.238499,-2.0546899,Morocco,1,0,2,1
+Bedouin Arabs,17.4191,-8.7323198,Mauritania,0,0,0,0
+Negroes of the Sudan Fringe - Songhai Province,13.5842,2.7232571,Niger,0,13,8,69
+Shona and Thonga - Shona,-18.1752,30.961599,Zimbabwe,0,22,2009,302
+Bedouin Arabs,34.579498,5.7073889,Algeria,0,3,0,2
+Northeast Coastal Bantu - Zigula,-5.4875202,38.165001,Tanzania,0,0,0,0
+Central Bantu - Maravi,-16.816299,34.7687,Mozambique,1,0,2,2
+Plateu Nigerians - Bantoid Peoples,7.3352189,11.1281,Nigeria,0,0,0,0
+Nguni - Nguni,-29.123199,30.398899,South Africa,0,89,113,76
+Plateu Nigerians - Bantoid Peoples,7.2550559,10.1271,Nigeria,0,3,0,0
