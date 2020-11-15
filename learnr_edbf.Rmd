@@ -1,0 +1,415 @@
+---
+title: "Edinburgh International Book Festival Analysis"
+output: 
+  learnr::tutorial:
+    progressive: true
+    allow_skip: true
+runtime: shiny_prerendered
+description: >
+  Text analysis example using data from the EIBF 2012-2020
+---
+
+```{r setup, include=FALSE}
+library(learnr)
+library(kableExtra)
+library(DT)
+knitr::opts_chunk$set(error = TRUE)
+```
+
+## Welcome
+
+In this tutorial, you will learn how to summarise, aggregate, and analyze text in R:
+
+* How to summarise tables with `summarise()` 
+* How to use the pipe (`%>%`) operators with dplyr from the tidyverse
+* How to summarise groups of observations with `group_by()` and `summarise()`
+* How to visualize results with ggplot
+* How to tidy text with tidytext functions
+* How to perform automated gender assignment from name data (and think about possible biases these methods may enclose)
+
+### Setup
+
+To practice these skills, we will use a dataset that has already been collected from the Edinburgh Fringe Festival website. You can try this out yourself too: to obtain these data, you must first obtain an API key. Instructions on how to do this are available at the [Edinburgh Fringe API page](https://api.edinburghfestivalcity.com/documentation/fringe_approval):
+
+```{r, echo=F}
+knitr::include_url("https://api.edinburghfestivalcity.com/documentation/fringe_approval", height = "400px")
+```
+
+This might sound complicated but it isn't really. In essence, APIs simply provide data in a more usable format without the need for alternative techniques such as web scraping. Be warned, too, that some websites do not permit automated web scraping, meaning the use of an API is essential.
+
+##  Load data and packages
+
+Beforce proceeding, we'll load the remaining packages we will need for this tutorial.
+
+```{r, message=F}
+library(tidyverse) # loads dplyr, ggplot2, and others
+library(tidytext) # includes set of functions useful for manipulating text
+library(ggthemes) # includes a set of themes to make your visualizations look nice!
+```
+
+For this tutorial, we will be using data that I have pre-cleaned and provided in .csv format. The data come from the Edinburgh Book Festival API, and provide data for every event that has taken place at the Edinburgh Book Festival, which runs every year in the month of August, for nine years: 2012-2020. There are many questions we might ask of these data. In this tutorial, we will investigate the contents of each event, and the speakers at each event, to determine if there are any trends in gender representation over time.
+
+The first task, then, is to read in these data. We can do this with the `read.csv()` function, which is a base R fuction -- i.e., you do need to load and packages to do this.
+
+The `read.csv()` function takes the .csv file and loads it into the working environment as a data frame object called "edbfdata." We can call this object anything though. Try changing the name of the object before the <- arrow. Note that R does not allow names with spaces in, however. It is also not a good idea to name the object something beginning with numbers, as this means you have to call the object within ` marks.
+
+```{r}
+edbfdata <- read.csv("edbookfestall.csv")
+```
+
+## Inspect and filter data
+
+Our next job is to cut down this dataset to size, including only those columns that we need. But first we can inspect it to see what the existing column names are, and how each variable is coded. To do this we can first call:
+
+```{r}
+colnames(edbfdata)
+```
+
+And then: 
+
+```{r}
+glimpse(edbfdata)
+```
+
+We can see that the description of each event is included in a column named "description" and the year of that event as "year." So for now we'll just keep these two. Remember: we're interested in this tutorial firstly in the representation of gender and feminism in forms of cultural production given a platform at the Edinburgh International Book Festival. Given this, we are first and foremost interested in the reported content of each artist's event.
+
+We use pipe `%>%` functions in the tidyverse package to quickly and efficiently select the columns we want from the edbfdata data.frame object. We pass this data to a new data.frame object, which we call "evdes."
+
+```{r}
+# get simplified dataset with only event contents and year
+evdes <- edbfdata %>%
+  select(description, year)
+```
+
+```{r, echo=F, warning=F}
+datatable(head(evdes, 20), options = list(
+  dom= 'ftp',
+  pageLength = 5,
+  lengthMenu = c(5, 10, 15, 20)
+))
+```
+
+And let's take a quick look at how many events there were over time at the festival. To do this, we first calculate the number of individual events (row observations) by year (column variable).
+
+```{r, echo=T, warning=F}
+evtsperyr <- evdes %>%
+  mutate(obs=1) %>%
+  group_by(year) %>%
+  summarise(sum_events = sum(obs))
+```
+
+And then we can plot this using ggplot!
+
+```{r, echo=T, warning=F}
+ggplot(evtsperyr) +
+  geom_line(aes(year, sum_events)) +
+  theme_tufte(base_family = "Helvetica") + 
+  scale_y_continuous(expand = c(0, 0), limits = c(0, NA))
+```
+
+Perhaps unsurprisingly, in the context of the pandemic, the number of recorded bookings for the 2020 Festival is drastically reduced. 
+
+## Tidy the text
+
+Given that these data were obtained from an API that outputs data originally in HTML format, some of the text still contains some HTML codes for e.g. bold font or paragraphs. We'll need to get rid of this, as well as other punctuation before analyzing these data.
+
+The below set of commands takes the event descriptions, extracts individual words, and counts the number of times they appear in each of the years covered by our book festival data. 
+
+```{r}
+#remove punctuation
+remove_reg <- "&amp;|&lt;|&gt;|<p>|</p>"
+#get year and word for every word and date pair in the dataset
+tidy_des <- evdes %>% 
+  mutate(desc = tolower(str_remove_all(description, remove_reg))) %>%
+  unnest_tokens(word, description) %>%
+  filter(!word %in% stop_words$word,
+         !word %in% str_remove_all(stop_words$word, "'"),
+         str_detect(word, "[a-z]"))
+
+edbf_term_counts <- tidy_des %>% 
+  group_by(year) %>%
+  count(word, sort = TRUE)
+```
+
+```{r, echo=F, warning=F}
+datatable(head(edbf_term_counts, 20), options = list(
+  dom= 'ftp',
+  pageLength = 5,
+  lengthMenu = c(5, 10, 15, 20)
+))
+```
+
+But we see above that some HTML encodings remain in these data, which we need to get rid of! We'll have another go using the the filter command, specifying that we only keep the words that are not included in the string of words `r c("rsquo", "em", "ndash", "nbsp", "lsquo") `.
+
+```{r}
+edbf_term_counts <- edbf_term_counts %>%
+  filter(!word %in% c("rsquo", "em", "ndash", "nbsp", "lsquo"))
+```
+
+## Analyze keywords
+
+Okay, now we have our list of words, and the number of times they appear, we can tag those words we think might be related to issues of gender inequality and sexism. You may decide that this list is imprecise or inexhaustive. If so, then feel free to change the terms we are including after the `grepl()` function. 
+
+```{r}
+edbf_term_counts$womword <- as.integer(grepl("women|feminist|feminism|gender|harassment|sexism|sexist", 
+                                            x = edbf_term_counts$word))
+```
+
+```{r, echo=F, warning=F}
+datatable(head(edbf_term_counts, 20), options = list(
+  dom= 'ftp',
+  pageLength = 5,
+  lengthMenu = c(5, 10, 15, 20)
+))
+```
+
+## Compute aggregate statistics
+
+Now that we have tagged individual words relating to gender inequality and feminism, we can sum up the number of times these words appear each year and then denominate them by the total number of words in the event descriptions.
+
+The intuition here is that any increase or decrease in the percentage of words relating to these issues is capturing a substantive change in the representation of issues related to sex and gender.
+
+What do we think of this measure? Is this an adequate measure of representation for such issues in the cultural sphere?
+
+Are the keywords we used precise enough? If not, what would you change?
+
+```{r}
+#get counts by year and word
+edbf_counts <- edbf_term_counts %>%
+  complete(year, word, fill = list(n = 0)) %>%
+  group_by(year) %>%
+  mutate(year_total = sum(n)) %>%
+  filter(womword==1) %>%
+  summarise(sum_wom = sum(n),
+            year_total= min(year_total))
+```
+
+```{r, echo=F, warning=F}
+datatable(head(edbf_counts, 20), options = list(
+  dom= 'ftp',
+  pageLength = 5,
+  lengthMenu = c(5, 10, 15, 20)
+))
+```
+
+## Plot time trends
+
+So what do we see? Let's take the count of words relating to gender in this dataset, and denominate them by the total number of words in these data per year. 
+
+```{r, warning=F}
+ggplot(edbf_counts, aes(year, sum_wom / year_total, group=1)) +
+  geom_line() +
+  xlab("Year") +
+  ylab("% gender-related words") +
+  scale_y_continuous(labels = scales::percent_format(),
+                     expand = c(0, 0), limits = c(0, NA)) +
+  theme_tufte(base_family = "Helvetica") 
+```
+
+We can then add visual guides to draw attention to apparent changes in these data. Here, we might wish to signal the year of the #MeToo movement in 2017.
+
+```{r, warning=F}
+ggplot(edbf_counts, aes(year, sum_wom / year_total, group=1)) +
+  geom_line() +
+  geom_vline(xintercept = 2017, col="red") +
+  xlab("Year") +
+  ylab("% gender-related words") +
+  scale_y_continuous(labels = scales::percent_format(),
+                     expand = c(0, 0), limits = c(0, NA)) +
+  theme_tufte(base_family = "Helvetica")
+```
+
+And we could label why we are highlighting the year of 2017 by including a text label along the vertical line. 
+
+```{r, warning=F}
+ggplot(edbf_counts, aes(year, sum_wom / year_total, group=1)) +
+  geom_line() +
+  geom_vline(xintercept = 2017, col="red") +
+  geom_text(aes(x=2017.1, label="#metoo year", y=.0015), 
+            colour="black", angle=90, text=element_text(size=8)) +
+  xlab("Year") +
+  ylab("% gender-related words") +
+  scale_y_continuous(labels = scales::percent_format(),
+                     expand = c(0, 0), limits = c(0, NA)) +
+  theme_tufte(base_family = "Helvetica")
+```
+
+## Consider alternative measurements
+
+We might decide that this measure is inadequate or too expansive to answer the question at hand. Another way of measuring representation in cultural production is to measure the gender of the authors who spoke at these events.
+
+Of course, this would take quite some time if we were to individually code each of the approximately 6000 events included in this dataset.
+
+But there do exist alternative, computational techniques for imputing gender based on the name of an individual. 
+
+We first need to load new packages for this:
+
+```{r, echo=F, results = 'hide', message=F, warning=F}
+library(remotes)
+install_github("ropensci/genderdata")
+```
+
+```{r}
+library(gender)
+library(genderdata)
+```
+
+We then need to subset the data again, taking the new columns of interest: artist (the column name for the author) and year. 
+
+And then using the `sub()` function, we just take the first name of the artist, which is what we need to predict the gender of the individual in question. 
+
+```{r, warning=F, message=F}
+gendes <- edbfdata %>%
+  select(artist, year) %>%
+  na.omit()
+
+gendes$name <- sub(" .*", "", gendes$artist)
+```
+
+Using the `gender()` function, we can then impute the gender of an individual based on their name. This technique works with reference to the  U.S. Social Security Administration baby name data. Given that the most common gender associated with a given name changes over time, the function also allows us to specify the range of years for the cohort in question whose gender we are inferring. Given that we don't know how wide the cohort of artists is that we have here, we specify a broad range of 1900-2000.
+
+```{r, warning=F, message=F}
+genpred <- gender(gendes$name,
+       years = c(1900, 2000))
+```
+
+```{r, echo=F, warning=F}
+datatable(head(genpred, 20), options = list(
+  dom= 'ftp',
+  pageLength = 5,
+  lengthMenu = c(5, 10, 15, 20)
+))
+```
+
+Then we can plot
+
+```{r, warning=F, message=F}
+genpred <- genpred %>%
+  distinct() %>%
+  select(name, gender, 
+         proportion_female, proportion_male) %>%
+  left_join(gendes, genpred, by="name")
+
+ggplot(genpred, aes(x=year, fill = factor(gender))) +
+  geom_bar(position = "fill") +
+  xlab("Year") +
+  ylab("% women authors") +
+  labs(fill="") +
+  scale_y_continuous(labels = scales::percent_format(accuracy = 1)) +
+  theme_tufte(base_family = "Helvetica") +
+  geom_abline(slope=0, intercept=0.5,  col = "black",lty=2)
+
+```
+
+## Ethical questions
+
+Questions to consider:
+
+* What do we think about this method? 
+* Why is there a warning attached to the gender package? 
+* What are the potential biases of this method?
+
+Read more about the gender package and the warnings accompanying it [here](https://www.rdocumentation.org/packages/gender/versions/0.5.4).
+
+
+## Exercises 1
+
+The below code filters the data anew and captures all articles coded as relevant to gender/women/feminism based on our keyword filters. It then cleans these data of pesky PHP strings.
+
+I then tabulate for you all articles that the above analysis codes as relevant.
+
+Assess the data qualitatively, coding articles that do speak to gender politics rather than something else. Does your analysis of the content of these events indicate that the observed aggregate trends actually represents a substantive change in representation of topics related to women, gender, and feminism?
+
+```{r}
+womwords <- c("women,feminist,feminism,gender,harassment,sexism,sexist")
+
+edbfwomevnts <- filter(edbfdata,
+                       grepl("women|feminist|feminism|gender|sexuality|harassment|sexism|sexist",
+                                       description))
+
+remove_reg <- "&amp;|&lt;|&gt;|<p>|</p>|&rsquo;|em|ndash|nbsp|&lsquo;|&#39;|</strong>"
+#get year and word for every word and date pair in the dataset
+tidy_edbfwomevnts <- edbfwomevnts %>% 
+  mutate(description = tolower(str_remove_all(description, remove_reg)))
+
+edbfwomevsh <- tidy_edbfwomevnts %>%
+  select(artist,  year, description, genre)
+```
+
+```{r, echo=F, warning=F}
+datatable(head(edbfwomevsh, 20), options = list(
+  dom= 'ftp',
+  pageLength = 5,
+  lengthMenu = c(5, 10, 15, 20)
+))
+```
+
+
+## Exercises 2
+
+Can we find evidence of increased interest in issues of race/racism over time? As a first step, filter the text using a different set of keywords related to race/racism.
+    
+```{r ex1, exercise = TRUE}
+edbf_term_counts$womword <- as.integer(grepl("women|feminist|feminism|gender|harassment|sexism|sexist", 
+                                            x = edbf_term_counts$word))
+```
+
+```{r ex1-solution}
+edbf_term_counts$raceword <- as.integer(grepl("race|racism|racist", 
+                                            x = edbf_term_counts$word))
+```
+    
+Then run this code again to recalculate year term counts including the new raceword column.
+
+```{r, echo=F, warning=F, message=F}
+#run raceword code in background so that it can be used in subsequent exercise questions
+edbf_term_counts$raceword <- as.integer(grepl("race|racism|racist", 
+                                            x = edbf_term_counts$word))
+```
+
+```{r}
+edbf_year_term_counts <- edbf_term_counts %>%
+  complete(year, word, fill = list(n = 0)) %>%
+  group_by(year) %>%
+  mutate(year_total = sum(n))
+```
+
+Then change parameters to aggregate over year and words
+
+```{r ex2, exercise = TRUE}
+
+```
+
+```{r ex2-solution}
+#get counts for racewords and total words
+edbf_counts <- edbf_year_term_counts %>%
+  group_by(year) %>%
+  filter(raceword==1) %>%
+  summarise(sum_race = sum(n),
+            year_total= min(year_total))
+```
+
+```{r, echo=F, warning=F, message=F}
+# run summarise code in background so that it can be used in subsequent exercise questions
+edbf_counts <- edbf_year_term_counts %>%
+  group_by(year) %>%
+  filter(raceword==1) %>%
+  summarise(sum_race = sum(n),
+            year_total= min(year_total))
+```
+
+Then change the details of the plot to relabel the y-axis correctly
+
+```{r ex3, exercise = TRUE}
+
+```
+
+```{r ex3-solution}
+ggplot(edbf_counts, aes(year, sum_race / year_total, group=1)) +
+  geom_line() +
+  xlab("Year") +
+  ylab("% frequency race words") +
+  scale_y_continuous(labels = scales::percent_format(),
+                     expand = c(0, 0), limits = c(0, NA)) +
+  theme_tufte(base_family = "Helvetica")
+```
