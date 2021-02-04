@@ -1,2 +1,2 @@
 # teaching_material
-Repo of materials used for teaching
+Repo of data used for teaching
